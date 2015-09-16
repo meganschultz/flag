@@ -1,0 +1,41 @@
+	/* #container{
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	} */
+	
+	.rectangle{
+	width:600px;
+	height: 134px;
+	position: relative;
+	top:0px;
+	left:0px;
+	z-index: 0;
+	} 
+	
+	#red{
+	background:red;
+	}
+	
+	#white{
+	background: white;
+	}
+	
+	#black{	
+	background:black;
+	}
+	
+	#triangle-right{
+	width: 0;
+	height: 0;
+	border-top: 200px solid transparent;
+	border-left: 300px solid green;
+	border-bottom: 200px solid transparent;
+	position: absolute;
+	top:8px;
+	left:8px;
+	z-index:1;
+	}
+	
+
+	
